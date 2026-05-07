@@ -38,14 +38,24 @@ export default function LoadingScreen() {
             <span className="text-4xl font-display font-black gradient-text">AY</span>
           </div>
           {/* Orbiting dot */}
-          <motion.div
+          {/* <motion.div
             className="absolute w-3 h-3 rounded-full bg-[#00f5ff]"
             style={{ top: -6, left: -6 }}
             animate={{ rotate: 360 }}
             transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
             style={{ transformOrigin: '54px 54px' } as React.CSSProperties}
           />
-        </motion.div>
+        </motion.div> */}
+        <motion.div
+        className="absolute w-3 h-3 rounded-full bg-[#00f5ff]"
+        style={{
+        top: -6,
+        left: -6,
+        transformOrigin: '54px 54px',
+        }}
+         animate={{ rotate: 360 }}
+         transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
+        />
 
         {/* Name */}
         <motion.div
