@@ -33,7 +33,7 @@ export default function LoadingScreen() {
           animate={{ scale: 1, rotate: 0 }}
           transition={{ duration: 0.8, type: 'spring', bounce: 0.4 }}
           className="relative"
-        >
+        />
           <div className="w-24 h-24 rounded-2xl glass-strong flex items-center justify-center glow-cyan">
             <span className="text-4xl font-display font-black gradient-text">AY</span>
           </div>
@@ -46,53 +46,53 @@ export default function LoadingScreen() {
             style={{ transformOrigin: '54px 54px' } as React.CSSProperties}
           />
         </motion.div> */}
-        <motion.div
-        className="absolute w-3 h-3 rounded-full bg-[#00f5ff]"
-        style={{
-        top: -6,
-        left: -6,
-        transformOrigin: '54px 54px',
-        }}
-         animate={{ rotate: 360 }}
-         transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
-        />
+          <motion.div
+            className="absolute w-3 h-3 rounded-full bg-[#00f5ff]"
+            style={{
+              top: -6,
+              left: -6,
+              transformOrigin: '54px 54px',
+            }}
+            animate={{ rotate: 360 }}
+            transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
+          />
 
-        {/* Name */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4, duration: 0.6 }}
-          className="text-center"
-        >
-          <h1 className="font-display text-2xl font-bold text-white tracking-widest">ANKIT YADAV</h1>
-          <p className="font-mono text-xs text-[#00f5ff] tracking-[0.3em] mt-2 uppercase">
-            Initializing Portfolio...
-          </p>
-        </motion.div>
+          {/* Name */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4, duration: 0.6 }}
+            className="text-center"
+          >
+            <h1 className="font-display text-2xl font-bold text-white tracking-widest">ANKIT YADAV</h1>
+            <p className="font-mono text-xs text-[#00f5ff] tracking-[0.3em] mt-2 uppercase">
+              Initializing Portfolio...
+            </p>
+          </motion.div>
 
-        {/* Progress bar */}
-        <motion.div
-          initial={{ opacity: 0, width: 0 }}
-          animate={{ opacity: 1, width: 280 }}
-          transition={{ delay: 0.6, duration: 0.5 }}
-          className="relative"
-        >
-          <div className="h-[2px] w-70 bg-white/10 rounded-full overflow-hidden" style={{ width: 280 }}>
-            <motion.div
-              className="h-full rounded-full"
-              style={{
-                width: `${Math.min(progress, 100)}%`,
-                background: 'linear-gradient(90deg, #00f5ff, #8b5cf6, #fbbf24)',
-                backgroundSize: '200% 100%',
-              }}
-              transition={{ duration: 0.2 }}
-            />
-          </div>
-          <div className="flex justify-between mt-2">
-            <span className="font-mono text-[10px] text-white/30">Loading assets</span>
-            <span className="font-mono text-[10px] text-[#00f5ff]">{Math.min(Math.round(progress), 100)}%</span>
-          </div>
-        </motion.div>
+          {/* Progress bar */}
+          <motion.div
+            initial={{ opacity: 0, width: 0 }}
+            animate={{ opacity: 1, width: 280 }}
+            transition={{ delay: 0.6, duration: 0.5 }}
+            className="relative"
+          >
+            <div className="h-[2px] w-70 bg-white/10 rounded-full overflow-hidden" style={{ width: 280 }}>
+              <motion.div
+                className="h-full rounded-full"
+                style={{
+                  width: `${Math.min(progress, 100)}%`,
+                  background: 'linear-gradient(90deg, #00f5ff, #8b5cf6, #fbbf24)',
+                  backgroundSize: '200% 100%',
+                }}
+                transition={{ duration: 0.2 }}
+              />
+            </div>
+            <div className="flex justify-between mt-2">
+              <span className="font-mono text-[10px] text-white/30">Loading assets</span>
+              <span className="font-mono text-[10px] text-[#00f5ff]">{Math.min(Math.round(progress), 100)}%</span>
+            </div>
+          </motion.div>
       </div>
 
       {/* Corner decorations */}
