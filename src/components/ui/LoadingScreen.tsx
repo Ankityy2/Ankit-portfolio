@@ -34,8 +34,11 @@ export default function LoadingScreen() {
           transition={{ duration: 0.8, type: 'spring', bounce: 0.4 }}
           className="relative"
         />
-          <div className="w-24 h-24 rounded-2xl glass-strong flex items-center justify-center glow-cyan">
+          < div className="w-24 h-24 rounded-2xl glass-strong flex items-center justify-center glow-cyan">
             <span className="text-4xl font-display font-black gradient-text">AY</span>
+        
+
+      
           </div>
           {/* Orbiting dot */}
           {/* <motion.div
