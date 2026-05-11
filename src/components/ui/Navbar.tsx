@@ -52,7 +52,7 @@ export default function Navbar() {
               <span className="font-display font-black text-lg gradient-text">AK</span>
             </div>
             <span className="font-display font-bold text-sm tracking-widest text-white/70 group-hover:text-white transition-colors hidden sm:block">
-              ANKIT Yadav
+              ANKIT YADAV
             </span>
           </button>
 

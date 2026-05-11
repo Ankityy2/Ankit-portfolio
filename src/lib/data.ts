@@ -146,9 +146,9 @@ export const projects = [
   },
   {
     id: 6,
-    title: "AK Clothing E-Commerce",
+    title: "A2Y Clothing E-Commerce",
     description:
-      "Full-stack e-commerce website for personal clothing brand AK Clothing. Features 3D interactive product showcasing, cart drawer, responsive design, and smooth animations.",
+      "Full-stack e-commerce website for personal clothing brand A2Y Clothing. Features 3D interactive product showcasing, cart drawer, responsive design, and smooth animations.",
     tech: ["HTML", "CSS", "JavaScript", "Three.js", "Tailwind CSS"],
     category: "Full Stack",
     color: "#f43f5e",
@@ -182,11 +182,11 @@ export const experience = [
   {
     id: 2,
     role: " Developer",
-    company: "AK Clothing",
+    company: "A2Y Clothing",
     duration: "2024 – 2025",
     type: "Entrepreneurial",
     description:
-      "Founded and runs AK Clothing — a small clothing brand with a custom-built e-commerce website. Handles product management, website development, and customer operations end-to-end.",
+      "Founded and runs A2Y Clothing — a small clothing brand with a custom-built e-commerce website. Handles product management, website development, and customer operations end-to-end.",
     achievements: [
       "Built full e-commerce platform from scratch",
       "Manages inventory, orders, and customer service",
