@@ -1,0 +1,73 @@
+# Query: ankit Yad
+# ContextLines: 1
+
+17 results - 8 files
+
+README.md:
+    1: # Ankit Yadav — Portfolio
+    2  
+
+  127  
+  128: Built with ❤️ for **Ankit Yadav** | Delhi NCR, India
+
+src\app\layout.tsx:
+   4  export const metadata: Metadata = {
+   5:   title: 'Ankit Yadav | Full Stack Developer & Data Analyst',
+   6    description:
+
+   8    keywords: [
+   9:     'Ankit Yadav', 'Full Stack Developer', 'Data Analyst', 'React Developer',
+  10      'Python Developer', 'Delhi NCR', 'MCA Graduate', 'Software Developer',
+
+  12    ],
+  13:   authors: [{ name: 'Ankit Yadav' }],
+  14:   creator: 'Ankit Yadav',
+  15    openGraph: {
+
+  17      locale: 'en_IN',
+  18:     title: 'Ankit Yadav | Full Stack Developer & Data Analyst',
+  19      description: 'MCA Graduate. Full Stack Developer & Data Analyst based in Delhi NCR.',
+  20:     siteName: 'Ankit Yadav folio',
+  21    },
+
+  23      card: 'summary_large_image',
+  24:     title: 'Ankit Yadav | Full Stack Developer',
+  25      description: 'MCA Graduate. Full Stack Developer & Data Analyst based in Delhi NCR.',
+
+src\components\sections\AboutSection.tsx:
+  51                  <div>
+  52:                   <h3 className="font-display font-bold text-white text-lg">Ankit Yadav</h3>
+  53                    <p className="font-mono text-xs text-[#00f5ff] tracking-widest mt-0.5">MCA · CDAC-GGSIPU Noida</p>
+
+src\components\sections\HeroSection.tsx:
+  59                  <span className="block text-6xl sm:text-7xl lg:text-8xl tracking-tight shimmer-text">
+  60:                   Ankit Yadav
+  61                  </span>
+
+src\components\ui\Footer.tsx:
+  18              <div>
+  19:               <p className="font-display font-bold text-sm text-white/80">Ankit Yadav</p>
+  20                <p className="font-mono text-[10px] text-white/30">Full Stack Developer · Delhi NCR</p>
+
+  45              <p className="font-mono text-xs text-white/25">
+  46:               © {new Date().getFullYear()} Ankit Yadav
+  47              </p>
+
+src\components\ui\LoadingScreen.tsx:
+  66            >
+  67:             <h1 className="font-display text-2xl font-bold text-white tracking-widest">ANKIT YADAV</h1>
+  68              <p className="font-mono text-xs text-[#00f5ff] tracking-[0.3em] mt-2 uppercase">
+
+src\components\ui\Navbar.tsx:
+  54              <span className="font-display font-bold text-sm tracking-widest text-white/70 group-hover:text-white transition-colors hidden sm:block">
+  55:               ANKIT YADAV
+  55:               ANKIT YADAV
+  56              </span>
+
+src\lib\data.ts:
+  1  // src/lib/data.ts
+  2: // Real data from Ankit Yadav's resume
+  3  
+  4  export const personalInfo = {
+  5:   name: "Ankit Yadav",
+  6    title: "Full Stack Developer",
